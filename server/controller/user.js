@@ -7,5 +7,5 @@ const userSchema = new Schema({
     Password: String,
 })
 
-const Login = moongoose.model("Login", userSchema)
-export default Login
+const userModel = moongoose.model("Login", userSchema)
+export default userModel
